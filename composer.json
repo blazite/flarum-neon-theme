@@ -1,0 +1,50 @@
+{
+    "name": "blazite/flarum-neon-theme",
+    "type": "flarum-extension",
+    "homepage": "https://github.com/blazite/flarum-neon-theme",
+    "description": "Blazite - Flarum Neon Theme",
+    "keywords": ["flarum","extension","theme"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blazite OSS",
+            "email": "hello@blazite.com",
+            "homepage": "https://blazite.com"
+        },
+        {
+            "name": "Tomás Romero",
+            "email": "tomasromero@outlook.com",
+            "role": "Developer",
+            "homepage": "https://blazite.com/team"
+        }
+    ],
+    "funding": [
+        {
+          "type": "other",
+          "url": "https://github.com/blazite"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/blazite/flarum-neon-theme/issues",
+        "source": "https://github.com/blazite/flarum-neon-theme",
+        "forum": "https://discuss.flarum.org/"
+    },
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Neon Theme",
+            "category": "theme",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#fff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
